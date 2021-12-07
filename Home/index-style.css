@@ -1,0 +1,90 @@
+/*---import---*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+/*------*/
+
+body {
+    background-color: #544454;
+}
+
+header {
+    background-color: #180C17;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.title {
+    transition: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    transition-delay: 1000ms;
+}
+
+header p {
+    font-size: 30px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+}
+
+nav ul {
+    text-align: center;
+    padding: 1.5rem;
+}
+
+nav li:hover {
+    background-color: #63325F;
+    transition: 500ms;
+    box-shadow: 3px 2px #332932;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+  
+nav li {
+    display: inline;
+    margin-right: 5rem;
+    padding: 0.5rem;
+}
+
+
+
+.poster-amigu{
+    background: url("https://s2.glbimg.com/vGkYn_GrPoMtOL9i2OskcIO1pAI=/0x0:1600x900/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/e/l/A3pv1eQ8y4QRXXVIvAgQ/foto-1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: inherit;
+    padding: 5rem;
+    margin: 0 10rem;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 2.8rem;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 1.4rem;
+}
+
+.poster-photo{
+    background: url("../img/tucani.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: inherit;
+    padding: 5rem;
+    margin: 0 10rem;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 2.8rem;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 1.4rem;
+}

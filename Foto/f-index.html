@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog da Bia - Fotografias</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="fstyle.css">
+</head>
+
+<body>
+    <header>
+        <h1>Blog da Bia &#129526;</h1>
+        <nav>
+            <ul class="menus">
+                <a href="../Home/index.html">
+                    <li class="item">&#127968; Home</li>
+                </a>
+                <a href="../Croche/c-index.html">
+                    <li class="item">&#129526; Crochê</li>
+                </a>
+                <a href="../Foto/f-index.html">
+                    <li class="item">&#128247; Fotografia</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="title">
+            Fotografias
+        </div>
+        <div class="fotos">
+            <div class="box">
+                <img src="../img/tricolor.jpg" id="p1" onclick="Modal.open(p1)" />
+                <img src="../img/arara.jpg" id="p2" onclick="Modal.open(p2)" />
+                <img src="../img/flamingo.jpg" id="p3" onclick="Modal.open(p3)" />
+            </div>
+            <div class="box">
+                <img src="../img/arvore-periquito.jpg" id="p4" alt="" onclick="Modal.open(p4)">
+                <img src="../img/periquito-rei.jpg" id="p5" onclick="Modal.open(p5)" />
+                <img src="../img/DSC_0048(e).png" id="p6" alt="" onclick="Modal.open(p6)">
+            </div>
+            <div class="box">
+                <img src="../img/carro-sabia.jpg" id="p4" alt="" onclick="Modal.open(p4)">
+                <img src="../img/jao-de-barro.jpg" id="p5" onclick="Modal.open(p5)" />
+                <img src="../img/cometocino.jpg" id="p6" alt="Cometocino de Gay" onclick="Modal.open(p6)">
+            </div>
+            <div class="box">
+                <img src="../img/canario.jpg" id="p4" alt="" onclick="Modal.open(p4)">
+                <img src="../img/esqueci.jpg" id="p5" onclick="Modal.open(p5)" />
+                <img src="../img/corrupiao.jpg" id="p6" alt="" onclick="Modal.open(p6)">
+            </div>
+            <div class="box">
+                <img src="../img/pica-pau.jpg" id="p4" alt="" onclick="Modal.open(p4)">
+                <img src="../img/sabia.jpg" id="p5" onclick="Modal.open(p5)" />
+                <img src="../img/nsei.jpg" id="p6" alt="" onclick="Modal.open(p6)">
+            </div>
+        </div>
+
+        <div class="modal-overlay">
+            <div class="modal">
+                <p onclick="Modal.close()">x</p>
+                <h1>Trem</h1>
+        </div>
+    </main>
+
+    <script src="./fscript.js"></script>
+</body>
+
+</html>
